@@ -1,15 +1,62 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import Button from '../components/Button.astro';
-import Link from '../components/Link.astro';
-import { Image } from 'astro:assets';
-import thumbsup from "../assets/images/thumbsup.png";
 ---
-<MainLayout title="Titel">
-	<article>
-		<h1>Index overskrift</h1>
-		<Button>Klik!</Button>
-		<p>Link til <Link href="https://www.kea.dk" target="_blank">En anden side</Link></p>
-		<Image src={thumbsup} alt=""></Image>
-	</article>
+
+<MainLayout title="Fordelingen af medlemmer/ikke-medlemmer i folkekirken">
+  <div class="top-part p-4 flex flex-col justify-center items-center">
+    <div class="top-part2 p-4">
+      <h2 class="text-xl font-bold text-left opacity-40">Samfund</h2>
+    </div>
+    <h1 class="text-4xl font-bold text-left pb-8 max-w-3xl">
+      Fordelingen af medlemmer/ikke-medlemmer i folkekirken i Københavns & Frederiksbergs kommune i 2017
+    </h1>
+  </div>
+
+  <div class="second-part flex justify-center items-center">
+    <p class="text-lg max-w-3xl">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta incidunt fugit animi, suscipit dolores nihil dolore numquam voluptate
+      exercitationem repellat repudiandae quibusdam, error quasi quam architecto dignissimos enim! Similique! Lorem, ipsum dolor sit amet consectetur
+      adipisicing elit. Porro perspiciatis doloremque at, delectus praesentium pariatur error rem. Vitae officiis minus fuga. Cupiditate ad veritatis
+      distinctio. Et modi id animi perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officiis tenetur cum, debitis quae
+      asperiores voluptas minima excepturi saepe, nemo autem perspiciatis! Voluptates non cum ab! Quaerat ea nulla soluta!
+    </p>
+  </div>
+  <h2 class="text-2xl flex justify-center items-center pt-20 font-bold italic">Antal medlemmer/ikke-medlemmer angivet i procent</h2>
+  <div class="third-part flex justify-center items-center pt-4 pb-20">
+    <img src="/images/chart.svg" alt="chart" class="w-2/3" />
+  </div>
+  <div class="fourth-part flex justify-center items-center">
+    <p class="text-lg max-w-3xl">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta incidunt fugit animi, suscipit dolores nihil dolore numquam voluptate
+      exercitationem repellat repudiandae quibusdam, error quasi quam architecto dignissimos enim! Similique! Lorem, ipsum dolor sit amet consectetur
+      adipisicing elit. Porro perspiciatis doloremque at, delectus praesentium pariatur error rem. Vitae officiis minus fuga. Cupiditate ad veritatis
+      distinctio. Et modi id animi perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officiis tenetur cum, debitis quae
+      asperiores voluptas minima excepturi saepe, nemo autem perspiciatis! Voluptates non cum ab! Quaerat ea nulla soluta! Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Illo eaque dolorem earum, adipisci molestiae modi eum praesentium. Possimus error aspernatur minus pariatur. Nisi
+      ullam maxime similique molestias labore! Debitis, molestiae? <br /><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, maxime
+      quae atque veritatis quibusdam esse quidem consequuntur, error itaque similique placeat sequi nam facere fugit quasi impedit illo aspernatur
+      cumque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. At incidunt perferendis quasi. Earum, voluptate, deleniti consequuntur est
+      doloremque placeat cumque commodi molestias in dolor aliquid itaque totam quia inventore sunt? Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Cupiditate quas error reiciendis corrupti illum harum dolor laborum totam consequatur aspernatur cum impedit, provident est
+      pariatur odit laudantium molestias natus. Laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet iusto consectetur
+      unde, inventore voluptatum laborum molestias quod similique veniam. Beatae nisi numquam vel expedita. Minima cupiditate maxime omnis animi.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consequuntur nisi dolorum laborum error, accusamus soluta magni sapiente,
+      reiciendis libero nobis quis. Minima voluptatem explicabo accusantium illo ipsum, sint voluptatum.
+    </p>
+  </div>
+  <h2 class="text-2xl flex justify-center items-center pt-20 italic font-bold">Antal medlemmer/ikke-medlemmer angivet i tal</h2>
+  <div class="fifth-part flex justify-center items-center pb-20">
+    <img src="/images/chart2.svg" alt="chart" class="w-2/3" />
+  </div>
+  <div class="fourth-part flex justify-center items-center pb-20">
+    <p class="text-lg max-w-3xl">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta incidunt fugit animi, suscipit dolores nihil dolore numquam voluptate
+      exercitationem repellat repudiandae quibusdam, error quasi quam architecto dignissimos enim! Similique! Lorem, ipsum dolor sit amet consectetur
+      adipisicing elit. Porro perspiciatis doloremque at, delectus praesentium pariatur error rem. Vitae officiis minus fuga. Cupiditate ad veritatis
+      distinctio. Et modi id animi perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officiis tenetur cum, debitis quae
+      asperiores voluptas minima excepturi saepe, nemo autem perspiciatis! Voluptates non cum ab! Quaerat ea nulla soluta! Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Illo eaque dolorem earum, adipisci molestiae modi eum praesentium. Possimus error aspernatur minus pariatur. Nisi
+      ullam maxime similique molestias labore! Debitis, molestiae?
+    </p>
+  </div>
 </MainLayout>
