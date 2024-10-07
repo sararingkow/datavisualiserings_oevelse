@@ -2,14 +2,19 @@
 import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<MainLayout title="Fordelingen af medlemmer/ikke-medlemmer i folkekirken">
+<MainLayout
+  title="Fordelingen af medlemmer/ikke-medlemmer i folkekirken"
+  description="Fordelingen af medlemmer/ikke-medlemmer i folkekirken i Københavns & Frederiksbergs kommune i 2017"
+  ogtitle="Fordelingen af medlemmer/ikke-medlemmer i folkekirken i Københavns & Frederiksbergs kommune i 2017"
+  ogdescription="Fordelingen af medlemmer/ikke-medlemmer i folkekirken i Københavns & Frederiksbergs kommune i 2017"
+>
   <div class="top-part p-4 flex flex-col justify-center items-center">
-    <div class="top-part2 p-4">
-      <h2 class="text-xl font-bold text-left opacity-40">Samfund</h2>
-    </div>
     <h1 class="text-4xl font-bold text-left pb-8 max-w-3xl">
       Fordelingen af medlemmer/ikke-medlemmer i folkekirken i Københavns & Frederiksbergs kommune i 2017
     </h1>
+    <div class="top-part3 pb-8">
+      <img src="/images/church.webp" alt="church" />
+    </div>
   </div>
 
   <div class="second-part flex justify-center items-center">
@@ -44,7 +49,7 @@ import MainLayout from "../layouts/MainLayout.astro";
       reiciendis libero nobis quis. Minima voluptatem explicabo accusantium illo ipsum, sint voluptatum.
     </p>
   </div>
-  <h2 class="text-2xl flex justify-center items-center pt-20 italic font-bold">Antal medlemmer/ikke-medlemmer angivet i tal</h2>
+  <h2 class="text-2xl flex justify-center items-center pt-20 pb-4 italic font-bold">Antal medlemmer/ikke-medlemmer angivet i tal</h2>
   <div class="fifth-part flex justify-center items-center pb-20">
     <img src="/images/chart2.svg" alt="chart" class="w-2/3" />
   </div>
